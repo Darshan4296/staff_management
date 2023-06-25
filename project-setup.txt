@@ -18,3 +18,11 @@ File: app/Config/Email.php
 7) Change Site url:
 File: app/Config/App.php
 $baseURL = 'http://localhost/staffmanagement/public/';
+
+8) Logins:
+Admin:
+user: darshan@example.com
+password: admin123
+
+Staff: donald@example.com
+password: staff123
