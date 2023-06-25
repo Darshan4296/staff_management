@@ -4,6 +4,7 @@ namespace App\Controllers;
 
 use App\Helpers\Api;
 use App\Models\UserModel;
+use CodeIgniter\RESTful\ResourceController;
 use CodeIgniter\API\ResponseTrait; 
 
 /**
@@ -83,7 +84,7 @@ class AuthController extends BaseController
             return $this->respondCreated($response);
         }
 
-        return json_encode([
+        return $this->respondCreated([
             'status'   => 500,
             'error'    => true,
             'messages' => [
