@@ -81,7 +81,7 @@ class StaffController extends AdminController
                 ]
             ],
             'profilephoto'=>[
-                'rules'=>'uploaded[profilephoto]|max_size[profilephoto,2048]|mime_in[profilephoto,image/jpg,image/png]',
+                'rules'=>'uploaded[profilephoto]|max_size[profilephoto,2048]|mime_in[profilephoto,image/jpg,image/jpeg,image/png]',
                 'error'=>[
                     'uploaded'=>'please select Photo',
                     'max_size'=>'the profilephoto maximum size 2MB',

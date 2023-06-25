@@ -124,5 +124,6 @@ nb-configuration.xml
 /results/
 /phpunit*.xml
 /.phpunit.*.cache
-
+public/uploads/*
+!public/uploads/4591dora.jpg
 !public/uploads/index.html
